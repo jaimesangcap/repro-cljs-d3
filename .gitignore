@@ -1,0 +1,8 @@
+.shadow-cljs
+.cpcache
+.idea
+*.iml
+node_modules/
+cljs-runtime/
+**/resources/public/**/*.js
+**/resources/public/**/*.edn

@@ -1,0 +1,8 @@
+{:deps {:aliases [:cljs]}
+ :builds
+ {:app {:target :browser
+        :output-dir "resources/public/app"
+        :asset-path "/"
+        :modules {:app {:init-fn repro-cljs-d3.core/init}}
+        :devtools {:http-port 9000
+                   :http-root "resources/public/app"}}}}
