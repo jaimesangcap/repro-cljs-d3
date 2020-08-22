@@ -1,8 +1,8 @@
 # repro-cljs-d3
 
-$ npm i
+`$ npm i`
 
-$ shadow-cljs watch app
+`$ shadow-cljs watch app`
 
 go to `http://localhost:9000`
 
